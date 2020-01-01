@@ -11,7 +11,7 @@ mongoose
     useFindAndModify: false,
     useUnifiedTopology: true
   })
-  .then(() => console.log(`[MongoDB]: Connected to database successfully`))
+  .then(() => console.log(`> [MongoDB] Connected to database successfully`))
   .catch(err => {
     console.error(err);
     process.exit(1);
@@ -36,5 +36,5 @@ const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, err => {
   if (err) throw err;
-  console.log(`> Server listening on port ${PORT}`);
+  console.log(`> [Server] listening on port ${PORT}`);
 });
