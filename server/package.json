@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "nodemon app",
-    "start": "node app"
+    "start": "NODE_ENV=production node app"
   },
   "keywords": [],
   "author": "",
