@@ -9,8 +9,6 @@
   },
   "scripts": {
     "dev": "nodemon app",
-    "build": "cd ../client && npm run build",
-    "heroku-postbuild": "npm run build",
     "start": "node app"
   },
   "keywords": [],
